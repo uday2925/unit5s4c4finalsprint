@@ -39,10 +39,11 @@ export const Login = () => {
         console.log("data2",data);
       })
     
+      navigate("/orders");
        
     
   }
-  navigate("/orders")
+  
   
 
 
