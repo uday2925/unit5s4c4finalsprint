@@ -31,13 +31,7 @@ export const Login = () => {
     dispatch(loggedin(true))
     console.log("hi");
     
-      axios.get(`http://localhost:8080/users/?username=${username}&&pass=${password}`)
-      .then(function (data) {
-              console.log("data1",`http://localhost:8080/users/?username=${username}&&pass=${password}`)
-               
-      }).then(function(data){
-        console.log("data2",data);
-      })
+    
     
       navigate("/orders");
        
